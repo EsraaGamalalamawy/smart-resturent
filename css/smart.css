@@ -41,3 +41,12 @@ body::after{
     visibility: hidden;
     cursor: pointer;
 }
+.box{
+    width: 200px;
+    height: min-content;
+}
+@media (max-width:678px) {
+    .box{
+        width: 40%;
+    }
+}
