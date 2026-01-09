@@ -32,6 +32,7 @@ show.onclick=function(){
 
 re.onclick= function(){
     total=0
+    x=0
     box.innerHTML =""
     price.style.display="none"
     count.style.visibility="hidden"
@@ -40,6 +41,7 @@ re.onclick= function(){
 
 order.onclick=function(){
     total=0
+    x=0
     box.innerHTML =""
     price.style.display="none"
     count.style.visibility="hidden"
