@@ -43,6 +43,10 @@ body::after{
 }
 .box{
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-around;
 }
 @media (max-width:678px) {
     .box{
