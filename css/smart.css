@@ -43,7 +43,6 @@ body::after{
 }
 .box{
     width: 200px;
-    height: min-content;
 }
 @media (max-width:678px) {
     .box{
